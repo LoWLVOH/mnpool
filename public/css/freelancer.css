@@ -1,3 +1,6 @@
+.img-fluid{
+  border-radius: 2px solid;
+}
 body {
   font-family: 'Lato';
 }
