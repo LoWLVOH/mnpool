@@ -3,7 +3,10 @@ var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 19516d90fe3753c97ca40259c0fe2e95a5d96b87
 var options = { server: { socketOptions: {connectTimeoutMS: 5000 } }};
 mongoose.connect('mongodb://mnp:azerty22@ds225308.mlab.com:25308/masternodepooldatabase',
     options,
@@ -11,6 +14,7 @@ mongoose.connect('mongodb://mnp:azerty22@ds225308.mlab.com:25308/masternodepoold
      console.log(err);
     }
 );
+<<<<<<< HEAD
 
 var userSchema = mongoose.Schema({
     name: String,
@@ -18,12 +22,15 @@ var userSchema = mongoose.Schema({
     password: String
 });
 var UserModel = mongoose.model('users', userSchema);
+=======
+>>>>>>> 19516d90fe3753c97ca40259c0fe2e95a5d96b87
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+<<<<<<< HEAD
 router.get('/signUp', function(req, res, next) {
   res.render('signUp', { title: 'Express' });
 });
@@ -62,4 +69,11 @@ router.post('/index', function(req, res, next) {
 
 
 
+=======
+router.get('/postAds', function(req, res, next) {
+  res.render('postAds', { title: 'Express' });
+});
+
+
+>>>>>>> 19516d90fe3753c97ca40259c0fe2e95a5d96b87
 module.exports = router;
