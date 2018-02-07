@@ -1,4 +1,16 @@
 
+h6{
+  font-weight: 700;
+font-family: Montserrat;
+margin-top: 100px;
+margin-right: 10px;
+float: right;
+color: blue;
+}
+.btn.btn-dark{
+  float: right;
+}
+
 }
 body {
   font-family: 'Lato';
@@ -397,7 +409,7 @@ a:focus, a:hover, a:active {
   border-color: #18BC9C;
 }
 
-.btn-dark:hover, .btn-dark:focus, .btn-dark:active {
+a.btn-dark:hover, .btn-dark:focus, .btn-dark:active {
   background-color: #128f76;
   border-color: #128f76;
 }
