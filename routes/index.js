@@ -43,7 +43,8 @@ router.get('/', function(req, res, next) {
 
 
 
-// add new add
+
+// add new ad
 
 // router.post('/ad', function(req, res, next) {
 //   body = JSON.parse(body);
